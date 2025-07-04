@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+    background-color: aquamarine;
+    color: brown;
+}
+h3{
+    text-align: center;
+    color: darkgreen;
+    box-shadow: bisque;
+}
+p{
+    text-align: justify;
+    color: rgb(32, 35, 219);
+    font-size: large;
+}
+img{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+
+   
+    border: 10px slateblue;
+    border-radius: 15px;
+    border-color: chocolate;
+    border-style:groove;
+   
+}
