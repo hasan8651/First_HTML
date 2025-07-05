@@ -13,15 +13,17 @@ p{
     color: rgb(32, 35, 219);
     font-size: large;
 }
-img{
-    width: 300px;
-    height: 300px;
-    margin: 10px;
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px; /* spacing between images */
+ 
+}
 
-   
-    border: 10px slateblue;
-    border-radius: 15px;
-    border-color: chocolate;
-    border-style:groove;
-   
+.image-container img {
+  border: 10px solid chocolate;
+  border-radius: 10px;
+  width: 400px; /* adjust as needed */
+  height: 400px;
 }
