@@ -1,0 +1,43 @@
+h1{
+    text-align: center;
+    background-color: rgb(189, 68, 20);
+    color: brown;
+    font-size: 2em;
+}
+h3{
+    text-align: center;
+    color: darkgreen;
+    box-shadow: bisque;
+    font-size: 1.5em;
+    font-family: fantasy;
+}
+p{
+    text-align: justify;
+    color: rgb(32, 35, 219);
+    font-size: large;
+}
+.image-container {
+  display:grid;
+ grid-template-columns:repeat(3, 1fr);
+  
+ }
+
+.image-container img {
+  border: 10px solid chocolate;
+  border-radius: 10px;
+  width:70% /*adjust as needed */
+  }
+
+  .navbar a{
+    color: chocolate;
+    background-color: aqua;
+  }
+
+  @media screen and (max-width:576px){
+    .image-container{
+        grid-template-columns: repeat(1, 2fr);
+        row-gap: 10px;
+        justify-items: center;
+   
+    }
+  }

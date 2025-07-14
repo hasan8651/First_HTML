@@ -15,8 +15,8 @@ p{
 }
 .image-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content:center;
+  align-items:center;
   gap: 10px; /* spacing between images */
  
 }
@@ -24,6 +24,9 @@ p{
 .image-container img {
   border: 10px solid chocolate;
   border-radius: 10px;
-  width: 400px; /* adjust as needed */
+  width:450px; /*adjust as needed */
   height: 400px;
+}
+.navbar a{
+  font-size: 1.5em;
 }
