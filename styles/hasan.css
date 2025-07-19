@@ -27,6 +27,8 @@ p{
   width:450px; /*adjust as needed */
   height: 400px;
 }
-.navbar a{
-  font-size: 1.5em;
+.navbar li{
+  font-size: 2.5em;
+  list-style:none ;
+  
 }
